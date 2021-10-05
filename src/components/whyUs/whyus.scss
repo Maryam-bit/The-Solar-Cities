@@ -1,0 +1,40 @@
+
+
+.whyus-container{
+    h6{
+        color: #309BCC;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    h2{
+        font-family: 'Ubuntu', sans-serif;
+        line-height: 3rem;
+    }
+    p{
+        color: grey;
+    }
+    .icons-container{
+        margin-left: 5rem;
+        .icon{
+            padding-bottom: 1rem !important;
+        }
+        img{
+            width: 80px;
+            margin-bottom: 7px;
+        }
+        p{
+            color: black;
+            font-weight: 500;
+            margin: 0 !important;
+        }
+        span{
+            color: grey;
+        }
+    }
+}
+
+@media(max-width:767px){
+    .icons-container{
+        margin-left: 0 !important;
+    }
+}

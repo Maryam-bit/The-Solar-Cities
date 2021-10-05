@@ -1,0 +1,30 @@
+@media(max-width:500px){
+    .portfolio{
+        .card-container{
+            margin: 0 !important;
+            // margin-top: -18rem !important;
+            // padding-bottom: 15rem !important;
+           
+        }
+    }
+}
+.portfolio{
+    .card-parent{
+        border: 1px solid lightgrey;
+       text-align: center;
+       margin: 10px;
+    }
+    .card{
+        height: 200px !important;
+        border: none !important;
+    }
+    .card-img-top{
+        height: 200px;
+        width: auto;
+        object-fit: fill;
+        margin: 0px;
+    }
+    .card-body{
+        border-top: 1px solid lightgrey;
+    }
+}

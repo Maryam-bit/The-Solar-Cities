@@ -1,0 +1,99 @@
+.navbar{
+    .navbar-brand{
+        color: #1A90C6 !important;
+    }
+    a{
+        color: black !important;
+    }
+    ul{
+        margin-right: 3rem !important;
+        a{
+            color: black !important;
+            text-decoration: none !important;
+        }
+        li{
+            margin-left: 3rem;
+            text-decoration: none;
+        }
+    }
+    .contact-btn{
+        background-color: #1A90C6;
+        color: white;
+        &:hover{
+            color: white;
+        }
+    }
+}
+
+.header-bar {
+    background-color: #1A90C6;
+    /* height: 50px; */
+}
+
+.header-bar p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+.header-bar i{
+    color: white;
+    padding: 8px;
+    font-size: 17px;
+}
+
+.header-bar .btns {
+    margin-top: 7px;
+    padding-bottom: 5px;
+
+}
+.btns .butt{
+    border: 1px solid dimgray;
+    color: dimgray;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    margin: 3px;
+}
+.fa-phone{
+    font-size: 13px !important;
+}
+.text-white{
+    color: white;
+    font-size: 16px !important;
+}
+
+.navbar {
+    width: 100%;
+  }
+  img ~ img  {
+    position: fixed;
+    top:8px;
+  }
+  .Nav__logo{
+    margin-top: 12px;
+  }
+  .Nav__black{
+      
+    position: fixed !important;
+    z-index: 2 !important;
+    -webkit-transition: position 10s;
+    -moz-transition: position 10s;
+    -ms-transition: position 10s;
+    -o-transition: position 10s;
+    transition: position 10s;
+    background: rgba(0, 0, 0, 0.95);
+    width: 100%;
+    top: 0px;
+  }
+
+  @media(max-width:981px){
+    .navbar{
+        ul{
+            li{
+                margin-left: 0px !important;
+                margin-bottom: 5px;
+            }
+        }
+    }
+  }
